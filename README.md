@@ -5,6 +5,23 @@ conda create -n resunet
 conda activate resunet
 pip3 install -r requirements.txt
 ```
+# Data preparation
+
+Put your data in this format
+
+```
+  train
+    | images
+    | mask_images
+  val
+    | images
+    | mask_images
+  test
+    | images
+    | mask_images
+```
+
+Custom your dataset in dataset.py
 
 # Training
 
